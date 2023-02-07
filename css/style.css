@@ -90,7 +90,6 @@ h4 {
     font-size: 12px;
     margin-top: 5px;
     text-decoration: underline;
-
 }
 
 .text-xl {
@@ -164,4 +163,9 @@ h4 {
             rgba(0, 0, 0, 0.76) 15.54%,
             rgba(0, 0, 0, 0.192) 60.23%,
             rgba(0, 0, 0, 8e-5) 100%);
+}
+
+/* Sub  Header */
+.sub-header {
+    display: grid;
 }
