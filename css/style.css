@@ -244,3 +244,27 @@ h4 {
 .categories .cover-4 {
     background: url('../img/cover-4.jpg') no-repeat center center / cover;
 }
+
+/* ---- Live ---- */
+.live {
+    background: #151516;
+    padding: 40px;
+}
+
+.live-border {
+    border: 4px solid #1ce783;
+    border-radius: 16px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.live a {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
