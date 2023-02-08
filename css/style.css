@@ -345,3 +345,34 @@ h4 {
 }
 
 /* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-box {
+    margin: 10% auto;
+    width: 400px;
+    background: #fff;
+    color: #333;
+    position: relative;
+    animation: modelopen 1s;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-body {}
